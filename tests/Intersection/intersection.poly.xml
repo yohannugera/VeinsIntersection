@@ -1,0 +1,6 @@
+<shapes>
+	<poly id="1" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="0,0 0,230 230,230 230,0"/>
+	<poly id="2" type="building" color="0.00,1.00,0.00" fill="1" layer="4" shape="0,270 0,500 230,500 230,270"/>
+	<poly id="3" type="building" color="1.00,0.00,0.00" fill="1" layer="4" shape="270,270 270,500 500,500 500,270"/>
+	<poly id="4" type="building" color="0.00,1.00,0.00" fill="1" layer="4" shape="270,0 270,230 500,230 500,0"/>
+</shapes>

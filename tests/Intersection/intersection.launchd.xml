@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- debug config -->
+<launch>
+	<copy file="intersection.net.xml" />
+	<copy file="intersection.rou.xml" />
+	<copy file="intersection.poly.xml" />
+	<copy file="intersection.sumo.cfg" type="config" />
+</launch>
+

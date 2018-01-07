@@ -1,0 +1,33 @@
+<tls>
+	<tlLogic id="int" type="static" programID="L0" offset="0">
+		<phase duration="999" state="Grrrrrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L1" offset="0">
+		<phase duration="999" state="rGrrrrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L2" offset="0">
+		<phase duration="999" state="rrGrrrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L3" offset="0">
+		<phase duration="999" state="GggGGgrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L4" offset="0">
+		<phase duration="999" state="GggGGgrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L5" offset="0">
+		<phase duration="999" state="GggGGgrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L6" offset="0">
+		<phase duration="999" state="GggGGgrrr"/>
+	</tlLogic>
+
+	<tlLogic id="int" type="static" programID="L7" offset="0">
+		<phase duration="999" state="GggGGgrrr"/>
+	</tlLogic>
+</tls>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2017-09-06 00:18:02 +0530 by Netedit Version 0.25.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/home/fyp-its/its/veins-4.4/tests/Intersection/intersection.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/fyp-its/its/veins-4.4/tests/Intersection/intersection.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,500.00,500.00" origBoundary="-10000000000.00,-10000000000.00,10000000000.00,10000000000.00" projParameter="!"/>
+
+    <edge id=":int_0" function="internal">
+        <lane id=":int_0_0" index="0" speed="13.89" length="16.10" shape="245.05,258.05 245.05,253.27 245.05,250.00 245.05,246.73 245.05,241.95"/>
+    </edge>
+    <edge id=":int_1" function="internal">
+        <lane id=":int_1_0" index="0" speed="13.89" length="10.82" shape="248.35,258.05 248.96,253.81 250.77,250.78 253.35,249.23"/>
+    </edge>
+    <edge id=":int_8" function="internal">
+        <lane id=":int_8_0" index="0" speed="13.89" length="4.82" shape="253.35,249.23 253.81,248.96 258.05,248.35"/>
+    </edge>
+    <edge id=":int_2" function="internal">
+        <lane id=":int_2_0" index="0" speed="13.89" length="16.10" shape="258.05,254.95 253.27,254.95 250.00,254.95 246.73,254.95 241.95,254.95"/>
+    </edge>
+    <edge id=":int_3" function="internal">
+        <lane id=":int_3_0" index="0" speed="13.89" length="15.64" shape="258.05,251.65 253.81,251.04 250.78,249.23 248.96,246.19 248.35,241.95"/>
+    </edge>
+    <edge id=":int_4" function="internal">
+        <lane id=":int_4_0" index="0" speed="13.89" length="16.10" shape="254.95,241.95 254.95,246.73 254.95,250.00 254.95,253.27 254.95,258.05"/>
+    </edge>
+    <edge id=":int_5" function="internal">
+        <lane id=":int_5_0" index="0" speed="13.89" length="10.82" shape="251.65,241.95 251.04,246.19 249.23,249.22 246.65,250.77"/>
+    </edge>
+    <edge id=":int_9" function="internal">
+        <lane id=":int_9_0" index="0" speed="13.89" length="4.82" shape="246.65,250.77 246.19,251.04 241.95,251.65"/>
+    </edge>
+    <edge id=":int_6" function="internal">
+        <lane id=":int_6_0" index="0" speed="13.89" length="16.10" shape="241.95,245.05 246.73,245.05 250.00,245.05 253.27,245.05 258.05,245.05"/>
+    </edge>
+    <edge id=":int_7" function="internal">
+        <lane id=":int_7_0" index="0" speed="13.89" length="15.64" shape="241.95,248.35 246.19,248.96 249.22,250.77 251.04,253.81 251.65,258.05"/>
+    </edge>
+
+    <edge id="-L0" from="int" to="1" priority="1">
+        <lane id="-L0_0" index="0" speed="13.89" length="241.95" shape="254.95,258.05 254.95,500.00"/>
+        <lane id="-L0_1" index="1" speed="13.89" length="241.95" shape="251.65,258.05 251.65,500.00"/>
+    </edge>
+    <edge id="-L1" from="int" to="2" priority="1">
+        <lane id="-L1_0" index="0" speed="13.89" length="241.95" shape="258.05,245.05 500.00,245.05"/>
+        <lane id="-L1_1" index="1" speed="13.89" length="241.95" shape="258.05,248.35 500.00,248.35"/>
+    </edge>
+    <edge id="-L2" from="int" to="3" priority="1">
+        <lane id="-L2_0" index="0" speed="13.89" length="241.95" shape="245.05,241.95 245.05,0.00"/>
+        <lane id="-L2_1" index="1" speed="13.89" length="241.95" shape="248.35,241.95 248.35,0.00"/>
+    </edge>
+    <edge id="-L3" from="int" to="4" priority="1">
+        <lane id="-L3_0" index="0" speed="13.89" length="241.95" shape="241.95,254.95 0.00,254.95"/>
+        <lane id="-L3_1" index="1" speed="13.89" length="241.95" shape="241.95,251.65 0.00,251.65"/>
+    </edge>
+    <edge id="L0" from="1" to="int" priority="1">
+        <lane id="L0_0" index="0" speed="13.89" length="241.95" shape="245.05,500.00 245.05,258.05"/>
+        <lane id="L0_1" index="1" speed="13.89" length="241.95" shape="248.35,500.00 248.35,258.05"/>
+    </edge>
+    <edge id="L1" from="2" to="int" priority="1">
+        <lane id="L1_0" index="0" speed="13.89" length="241.95" shape="500.00,254.95 258.05,254.95"/>
+        <lane id="L1_1" index="1" speed="13.89" length="241.95" shape="500.00,251.65 258.05,251.65"/>
+    </edge>
+    <edge id="L2" from="3" to="int" priority="1">
+        <lane id="L2_0" index="0" speed="13.89" length="241.95" shape="254.95,0.00 254.95,241.95"/>
+        <lane id="L2_1" index="1" speed="13.89" length="241.95" shape="251.65,0.00 251.65,241.95"/>
+    </edge>
+    <edge id="L3" from="4" to="int" priority="1">
+        <lane id="L3_0" index="0" speed="13.89" length="241.95" shape="0.00,245.05 241.95,245.05"/>
+        <lane id="L3_1" index="1" speed="13.89" length="241.95" shape="0.00,248.35 241.95,248.35"/>
+    </edge>
+
+    <junction id="1" type="dead_end" x="250.00" y="500.00" incLanes="-L0_0 -L0_1" intLanes="" shape="249.95,500.00 243.45,500.00 256.55,500.00 250.05,500.00"/>
+    <junction id="2" type="unregulated" x="500.00" y="250.00" incLanes="-L1_0 -L1_1" intLanes="" shape="500.00,250.05 500.00,256.55 500.00,243.45 500.00,249.95"/>
+    <junction id="3" type="unregulated" x="250.00" y="0.00" incLanes="-L2_0 -L2_1" intLanes="" shape="250.05,0.00 256.55,0.00 243.45,0.00 249.95,0.00"/>
+    <junction id="4" type="unregulated" x="0.00" y="250.00" incLanes="-L3_0 -L3_1" intLanes="" shape="0.00,249.95 0.00,243.45 0.00,256.55 0.00,250.05"/>
+    <junction id="int" type="priority" x="250.00" y="250.00" incLanes="L0_0 L0_1 L1_0 L1_1 L2_0 L2_1 L3_0 L3_1" intLanes=":int_0_0 :int_8_0 :int_2_0 :int_3_0 :int_4_0 :int_9_0 :int_6_0 :int_7_0" shape="243.45,258.05 256.55,258.05 258.05,256.55 258.05,243.45 256.55,241.95 243.45,241.95 241.95,243.45 241.95,256.55">
+        <request index="0" response="00000000" foes="11100100" cont="0"/>
+        <request index="1" response="00010000" foes="10011100" cont="1"/>
+        <request index="2" response="00010011" foes="10010011" cont="0"/>
+        <request index="3" response="01110010" foes="01110010" cont="0"/>
+        <request index="4" response="00000000" foes="01001110" cont="0"/>
+        <request index="5" response="00000001" foes="11001001" cont="1"/>
+        <request index="6" response="00110001" foes="00111001" cont="0"/>
+        <request index="7" response="00100111" foes="00100111" cont="0"/>
+    </junction>
+
+    <junction id=":int_8_0" type="internal" x="253.35" y="249.23" incLanes=":int_1_0 L2_0" intLanes=":int_2_0 :int_3_0 :int_4_0 :int_7_0"/>
+    <junction id=":int_9_0" type="internal" x="246.65" y="250.77" incLanes=":int_5_0 L0_0" intLanes=":int_0_0 :int_3_0 :int_6_0 :int_7_0"/>
+
+    <connection from="L0" to="-L2" fromLane="0" toLane="0" via=":int_0_0" dir="s" state="M"/>
+    <connection from="L0" to="-L1" fromLane="1" toLane="1" via=":int_1_0" dir="l" state="m"/>
+    <connection from="L1" to="-L3" fromLane="0" toLane="0" via=":int_2_0" dir="s" state="m"/>
+    <connection from="L1" to="-L2" fromLane="1" toLane="1" via=":int_3_0" dir="l" state="m"/>
+    <connection from="L2" to="-L0" fromLane="0" toLane="0" via=":int_4_0" dir="s" state="M"/>
+    <connection from="L2" to="-L3" fromLane="1" toLane="1" via=":int_5_0" dir="l" state="m"/>
+    <connection from="L3" to="-L1" fromLane="0" toLane="0" via=":int_6_0" dir="s" state="m"/>
+    <connection from="L3" to="-L0" fromLane="1" toLane="1" via=":int_7_0" dir="l" state="m"/>
+
+    <connection from=":int_0" to="-L2" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int_1" to="-L1" fromLane="0" toLane="1" via=":int_8_0" dir="s" state="m"/>
+    <connection from=":int_8" to="-L1" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int_2" to="-L3" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int_3" to="-L2" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int_4" to="-L0" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int_5" to="-L3" fromLane="0" toLane="1" via=":int_9_0" dir="s" state="m"/>
+    <connection from=":int_9" to="-L3" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int_6" to="-L1" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int_7" to="-L0" fromLane="0" toLane="1" dir="s" state="M"/>
+
+</net>

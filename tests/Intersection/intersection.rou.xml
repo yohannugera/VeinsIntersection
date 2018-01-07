@@ -1,0 +1,21 @@
+<routes>
+   <vType id="CarA" length="5.0" tau="1" accel="5.0" decel="5.0" maxSpeed="50.0" minGap="1" sigma="0.0" jmCrossingGap="1.0" />
+   
+   <route id="route01" edges="L0 -L2"/>
+   <route id="route02" edges="L0 -L1"/>
+   <route id="route03" edges="L1 -L3"/>
+   <route id="route04" edges="L1 -L2"/>
+   <route id="route05" edges="L2 -L0"/>
+   <route id="route06" edges="L2 -L3"/>
+   <route id="route07" edges="L3 -L1"/>
+   <route id="route08" edges="L3 -L0"/>
+
+   <vehicle depart="1" id="veh0" route="route01" type="CarA" color="1,0,0"/>
+   <vehicle depart="4" id="veh1" route="route01" type="CarA" color="1,0,0"/>
+   <vehicle depart="7" id="veh2" route="route01" type="CarA" color="1,0,0"/>
+   
+   <vehicle depart="11" id="veh3" route="route01" type="CarA" color="1,0,0"/>
+   <vehicle depart="14" id="veh4" route="route01" type="CarA" color="1,0,0"/>
+   <vehicle depart="17" id="veh5" route="route01" type="CarA" color="1,0,0"/>
+
+</routes>
